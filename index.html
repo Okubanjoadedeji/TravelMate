@@ -16,10 +16,10 @@
     <!-- NAVIGATION -->
 
     <nav>
-      <div class="flex flex-column space-between">
+      <div class="navbar flex flex-column space-between">
         <ul>
           <li>
-            <a href="#" class="items-center flex font-sm" style="gap: 16px; font-weight: 500;">
+            <a href="#" class="items-center flex font-sm">
               <span >
                 <img src="assets/icons/Icon map.png" alt="icon map">
               </span>
@@ -28,7 +28,7 @@
           </li>
 
           <li>
-            <a href="#" class="items-center flex font-sm" style="gap: 16px; font-weight: 500;">
+            <a href="#" class="items-center flex font-sm">
               <span>
                 <img src="assets/icons/Icon film.png" alt="icon film">
               </span>
@@ -37,7 +37,7 @@
           </li>
 
           <li>
-            <a href="#" class="items-center flex font-sm" style="gap: 16px; font-weight: 500;">
+            <a href="#" class="items-center flex font-sm">
               <span>
                 <img src="assets/icons/Icon shopping bag.png" alt="icon map">
               </span>
@@ -46,7 +46,7 @@
           </li>
           
           <li>
-            <a href="#" class="items-center flex font-sm" style="gap: 16px; font-weight: 500;">
+            <a href="#" class="items-center flex font-sm">
               <span>
                 <img src="assets/icons/Icon clock.png" alt="icon clock">
               </span>
@@ -55,7 +55,7 @@
           </li>
           
           <li>
-            <a href="#" class="items-center flex font-sm" style="gap: 16px; font-weight: 500;">
+            <a href="#" class="items-center flex font-sm">
               <span>
                 <img src="assets/icons/Icon cloud.png" alt="icon clock">
               </span>
@@ -64,8 +64,8 @@
           </li>
         </ul>
 
-        <div class="font-xs btn" style="margin-bottom: 64px; font-weight: 500;">
-          <a href="#" class="flex items-center" style="gap: 14px;">
+        <div class="font-xs btn">
+          <a href="#" class="flex" style="gap: 14px;">
             <i class="fa-solid fa-plus" style="font-size: 30px; font-weight: 900;"></i>
             create itinerary</a>
         </div>
@@ -84,7 +84,7 @@
 
             <a href="#" class="flex" style="font-weight: 500; gap: 4px;">
               <span>
-                <img src="assets/icons/Icon arrow circle up.png" alt="Icon arrow circle up">
+                <i class="fa-solid fa-circle-arrow-up"></i>
               </span>
               Explore
             </a>
@@ -96,7 +96,7 @@
             
             <div class="flex flex-column">
               <a href="#" class="tiny">
-                <span></span>
+                <span><i class="fa-solid fa-caret-down"></i></span>
                 Sort by
               </a>
 
@@ -109,7 +109,7 @@
 
             <div class="flex flex-column">
               <a href="#" class="tiny">
-                <span></span>
+                <span><i class="fa-solid fa-caret-up"></i></span>
                 Sort by
               </a>
             
@@ -127,7 +127,7 @@
           
             <a href="#" class="flex" style="font-weight: 500; gap: 4px;">
               <span>
-                <img src="assets/icons/Icon arrow circle up.png" alt="Icon arrow circle up">
+                <i class="fa-solid fa-circle-arrow-up"></i>
               </span>
               Check
             </a>
@@ -150,18 +150,16 @@
         <div class="stats grey tiles">
           <div>
             <div class="flex space-between " style="padding-bottom: 32px;">
-              <h4>View Statistics</h4>
+              <h4 class="flex">View Statistics</h4>
             
-              <div class="flex" style="gap: 8px;">
+              <div class="flex font-xs" style="gap: 24px;">
                 <a href="#" class="flex" style="font-weight: 500; gap: 4px;">
-                  <span>
-                  </span>
+                  <span><i class="fa-solid fa-chart-pie" style="font-size: 10px;"></i></span>
                   Expenses
                 </a>
                 
                 <a href="#" class="flex" style="font-weight: 500; gap: 4px;">
-                  <span>
-                  </span>
+                  <span><i class="fa-solid fa-chart-line"></i></span>
                   Income
                 </a>
               </div>
@@ -176,18 +174,26 @@
 
         <div class="btm-tiles flex">          
           <div class="track dim-pink tiles w-half">
-            <div>
-              <h4>Find your destination</h4>
-          
-              <a href="#">
+            <div class="flex space-between " style="padding-bottom: 16px;">
+              <h4>Track Your Spending</h4>
+            
+              <a href="#" class="flex" style="font-weight: 500; gap: 4px;">
                 <span>
-                  <img src="assets/icons/Icon arrow circle up.png" alt="Icon arrow circle up">
+                  <i class="fa-solid fa-circle-arrow-up"></i>
                 </span>
                 Explore
               </a>
             </div>
           
-            <h1>Destination A</h1>
+            <h4 style="font-weight: 400;">Plan Your Dream Vacation</h4>
+
+            <div class="flight">
+              <div>
+                <span>
+                  <i class="fas fa-plane" style="color: white; "></i>
+                </span>
+              </div>
+            </div>
           </div>
 
           <div class="expenses dim-pink tiles w-half">
@@ -196,7 +202,7 @@
               
               <a href="#">
                 <span>
-                  <img src="assets/icons/Icon arrow circle up.png" alt="Icon arrow circle up">
+                  <i class="fa-solid fa-circle-arrow-up"></i>
                 </span>
                 Explore
               </a>
